@@ -1,0 +1,260 @@
+body
+{
+    background-color: #ffffff;
+    margin: 0 !important;  
+}
+@media only screen and (max-width: 1200px) 
+{
+  .nav
+    {
+      font-size: 14px;     
+    }
+}
+a:link
+{
+    text-decoration: none; 
+}
+a:visited
+{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.pudelko
+{
+	width: 100%;
+}
+.nav
+{ 
+	width: 100%;
+	padding: 11px 0;
+	text-align: center;
+    font-family: Corbel;
+    box-shadow: 0px 1px 100px 1px #e7faff; 
+}
+.logo
+{
+    width: 50%;
+    font-family: 'Lobster', cursive;
+    font-size: 220%; 
+}
+.pieski
+{
+    margin-top: 40px;
+    width: 75%;
+    height: 100%;
+    
+}
+.borderterrier
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    background-image: url(border_terrier.jpg);
+    background-size: 600px;
+    background-attachment: scroll;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+.borderterrier:hover
+{
+	display:inline;
+    cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.opis1
+{ 
+    height: 100%;
+    float: center;
+    opacity: 0.0;
+}
+.opis1:hover
+{
+    font-family:  'Lobster', cursive;
+    display:inherit;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    opacity: 1.0;
+    padding: 10%;
+    font-size: 40px;
+    cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out;
+    filter: contrast(300%); 
+}
+.groenendael
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-image: url(owczarek_belgijski.jpeg);
+    background-size: 600px ;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    
+}
+.groenendael:hover
+{
+	cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.owczarekkaukaski
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-image: url(kaukaski.jpg);
+    background-size: 600px;
+    background-position: left;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.owczarekkaukaski:hover
+{
+	cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.pekinczyk
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    background-image: url(pekinczyk.jpg);
+    background-size: 600px ;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pekinczyk:hover
+{
+	cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.chowchow
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-image: url(chow_chow.jpg);
+    background-size: 600px;
+    background-position: left;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.chowchow:hover
+{
+	cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.wilczak
+{
+    width: 32%;
+    height: 40%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 20px;
+    background-image: url(wilczak.jpg);
+    background-size: 565px;
+    background-position: left;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wilczak:hover
+{
+	cursor: auto;
+    -moz-transition-duration: 500ms; 
+    -moz-transition-timing-function: ease-in-out; 
+    -webkit-transition-duration: 500ms; 
+    -webkit-transition-timing-function: ease-in-out; 
+    transition-duration: 500ms; 
+    transition-timing-function:ease-in-out; 
+    filter:saturate(0%);
+}
+.informacje
+{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue; 
+    font-family: 'Lobster', cursive;
+}
+.facebook
+{
+    width: 70px;
+    height: 70px;
+    float:left;
+   
+}
+.youtube
+{
+    width: 70px;
+    height: 70px;
+    float: left;
+   
+}
+.kontakt
+{
+    width: 20px;
+    height: 10px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 52%;    
+    font-family: 'Lobster', cursive;
+   
+}
+
+
